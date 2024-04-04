@@ -1,0 +1,192 @@
+body{
+    margin: 1%;
+}
+
+#header{
+    background-color: rgb(101,161,91);
+    display: flex;
+    gap: 70%
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 620px;
+}
+.navbar ul{
+    gap: 30%;
+}
+.subpage1{
+    font-size: 20px;
+}
+.page1{
+   display: flex;
+   gap: 20%;
+   font-size: 20px;
+}
+.page2{
+    display: flex;
+    height: 50%;
+    
+}
+.page22{
+    display:flex;
+    gap: 90px;
+
+}
+.subpage3{
+    display:grid;
+    
+    
+}
+.page3{
+    display: flex;
+    gap: 30px;
+}
+.flowers{
+    display: flex;
+}
+.page5{
+    display: flex;
+    gap:100px
+}
+.page6{
+    display: flex;
+    padding-left: 20%;
+    
+}
+.page7{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20%;
+    padding-left: 10%;
+}
+
+.subpage7{
+    display: flex;
+    gap:300px
+}
+
+.profile{
+    display: flex;
+    gap: 10%;
+}
+ .page8{
+  padding-left: 10%;
+  display: flex;
+    }
+    .page81{
+        padding-left: 10%;
+    }
+
+.page9{
+    display: flex;
+    padding-left: 20%;
+    gap: 300px;
+}
+.icons{
+    padding-left: 20px;
+    gap:30px
+    
+}
+.page82{
+    padding-left: 20%;
+}
+ 
+
+@media only screen and (max-width: 650px) and (min-width: 350){
+    body{
+    
+    }
+    
+    #header{
+        background-color: rgb(101,161,91);
+        display: flex;
+        gap: 10%
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .navbar ul{
+        gap: 30%;
+    }
+    .subpage1{
+        font-size: 20px;
+    }
+    .page1{
+       display: flex;
+       gap: 20%;
+       font-size: 20px;
+    }
+    .page2{
+        display: flex;
+        height: 50%;
+        
+    }
+    .page22{
+        display:flex;
+        gap: 90px;
+    
+    }
+    .subpage3{
+        display:grid;
+        
+        
+    }
+    .page3{
+        display: flex;
+        gap: 30px;
+    }
+    .flowers{
+        display: flex;
+    }
+    .page5{
+        display: flex;
+        gap:100px
+    }
+    .page6{
+        display: flex;
+        padding-left: 20%;
+        
+    }
+    .page7{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        gap: 20%;
+        padding-left: 10%;
+    }
+    
+    .subpage7{
+        display: flex;
+        gap:300px
+    }
+    
+    .profile{
+        display: flex;
+        gap: 10%;
+    }
+     .page8{
+      padding-left: 10%;
+      display: flex;
+        }
+        .page81{
+            padding-left: 10%;
+        }
+    
+    .page9{
+        display: flex;
+        padding-left: 20%;
+        gap: 300px;
+    }
+    .icons{
+        padding-left: 20px;
+        gap:30px
+        
+    }
+    .page82{
+        padding-left: 20%;
+    }
+    
+}
+ 
